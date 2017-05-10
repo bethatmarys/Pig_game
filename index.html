@@ -9,30 +9,16 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-          <p>Click the buttons to roll the dice!</p>
-          <button onclick="myFunction1()">Roll!</button>
-          <p id="result1"></p>
-          <script>
-          function myFunction1() {
-              var x = Math.floor((Math.random() * 6) + 1);
-              document.getElementById("result1").innerHTML = x;
-          }
+     <div class="row">
+         <p>Click the buttons to roll the dice!</p>
+         <button type="button" id="rollDice">roll-dice</button>
+         <div id="output"></div>
 
-          </script>
-          <button onclick="myFunction2()">Roll!</button>
-          <p id="result2"></p>
-          <script>
-          function myFunction2() {
-              var y = Math.floor((Math.random() * 6) + 1);
-              document.getElementById("result2").innerHTML = y;
-          }
 
-          </script>
-
-        </div>
+       </div>
       </div>
     </div>
+  </div>
 
 
 
